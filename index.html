@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Basics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Webudvikling</h1>
+    </header>
+    <section id="assignment">
+      <input type="text" v-model="userClass"  />
+      <p :class="userClass">
+        Style me!
+      </p>
+      <web-udvikling @image-clicked="handleImageClick" :user-class="userClass"></web-udvikling>
+    </section>
+
+    <section id="assignment2">
+      <header>
+        <h1>Programering</h1>
+      </header>
+      <h2>Velkommen til Programmeringens Verden</h2>
+      <p class="text">Programmering er kunsten at skrive instruktioner, som computere kan forstå...</p>
+      <img class="image" src="./images/Programering.jpg" alt="programmering" />
+      <br />
+      <a href="https://www.w3schools.com/vue/index.php" target="_blank">Vue</a>
+    </section>
+
+    <header>
+      <h1>Koding Card</h1>
+    </header>
+    <div class="container">
+      <div class="card">
+        <img src="./images/web.jpg" alt="" />
+      </div>
+      <div class="card">
+        <img src="./images/web1.jpg" alt="" />
+      </div>
+      <div class="card">
+        <img src="./images/web2.png" alt="" />
+      </div>
+      <p>Der er mange veje til at vælge og arbejde med kodning, og det afhænger ofte af ens interesser og mål...</p>
+    </div>
+  </body>
+</html>

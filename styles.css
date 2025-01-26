@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Jost', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header{
+  box-shadow: 0 2px 8px whitesmoke;
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #0fdce3;
+  color: black;
+  text-align: center;
+}
+
+#assignment, #assignment2, .container {
+  box-shadow: 0 2px 8px #59f2f7;
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  color:black;
+  margin: 0 0 1rem 0;
+}
+
+p{
+  
+  background-color: #0fdce3;
+  padding: 1rem;
+  color: black;
+  border-radius: 25px;
+}
+.text{
+  background-color: #0fdce3;
+  padding: 1rem;
+  color: black;
+  border-radius: 25px;
+  font-weight: normal;
+  font-size: 18px;
+}
+#assignment input {
+  font: inherit;
+  border: 1px solid #59f2f7;
+  box-shadow: 2px 2px 6px ;
+}
+
+#assignment input:focus {
+  outline: none;
+  border-color: whitesmoke;
+  background-color: whitesmoke;
+}
+
+#assignment button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid whitesmoke;
+  background-color: #0fdce3;
+  color: black;
+  padding: 0.05rem 1rem;
+  box-shadow: 2px 2px 6px #59f2f7;
+}
+
+#assignment button:hover,
+#assignment button:active {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  box-shadow: 1px 1px 4px whitesmoke;
+}
+
+.Database {
+  background-color: rgb(2, 2, 57);
+  color: white;
+}
+
+.FB {
+  background-color: purple;
+  color: black;
+}
+
+.UX {
+  background-color: rgb(77, 128, 0);
+  color: black;
+}
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+img{
+  
+  width: 80%;
+  height: 350px;
+  margin: 5px;
+  padding: 0 10px 10px 10px;
+  box-shadow: 2px 2px 6px white;
+
+}
+.billder{
+  width: 600px;
+  height: 350px;
+  margin: 10px;
+  box-shadow: 2px 2px 6px #0fdce3;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.card{
+  display: inline;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 10px;
+  
+}
+.card img{
+  width: 300px;
+  height: 200px;
+  border-bottom: #59f2f7 6px solid;
+  box-shadow: 2px 2px 6px #0fdce3;
+}
