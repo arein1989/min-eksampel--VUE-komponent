@@ -1,4 +1,4 @@
-# EcoVaner
+# VUE-komponent
 
 Beskrivelse:
 En simpel opgave i Vue komponenter, der du kan skrive i style me, 
